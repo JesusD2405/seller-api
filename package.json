@@ -1,0 +1,38 @@
+{
+  "name": "integration",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "ts": "tsc -w",
+    "dev": "nodemon ./build/server.js",
+    "start": "tsc && node ./build/server.js"
+  },
+  "keywords": [],
+  "author": "Jesus David Perez",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/compression": "0.0.36",
+    "@types/cors": "^2.8.4",
+    "@types/create-hmac": "^1.1.0",
+    "@types/express": "^4.16.1",
+    "@types/helmet": "0.0.42",
+    "@types/moment-timezone": "^0.5.10",
+    "@types/morgan": "^1.7.35",
+    "@types/node": "^11.9.4",
+    "@types/node-fetch": "^2.1.6",
+    "nodemon": "^1.18.10"
+  },
+  "dependencies": {
+    "compression": "^1.7.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "helmet": "^3.15.1",
+    "js-sha256": "^0.9.0",
+    "moment-timezone": "^0.5.23",
+    "morgan": "^1.9.1",
+    "node-fetch": "^2.3.0",
+    "typescript": "^3.3.3",
+    "underscore": "^1.9.1"
+  }
+}
